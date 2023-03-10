@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:wght@400;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    font-family: "Open Sans", sans-serif;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-family: "Raleway", sans-serif;
+  }
+
+  .bg-img {
+    background-image: url(/images/bg-curvy-mobile.svg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  @media screen and (min-width: 768px) {
+    .bg-img {
+      background-image: url(/images/bg-curvy-desktop.svg);
+    }
+  }
+}
