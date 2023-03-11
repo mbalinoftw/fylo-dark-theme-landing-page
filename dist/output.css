@@ -663,20 +663,12 @@ h1,
   max-width: 22.8rem;
 }
 
-.max-w-md{
-  max-width: 28rem;
-}
-
 .max-w-screen-lg{
   max-width: 1024px;
 }
 
 .max-w-screen-xl{
   max-width: 1280px;
-}
-
-.max-w-lg{
-  max-width: 32rem;
 }
 
 .flex-1{
@@ -956,16 +948,16 @@ h1,
   font-size: 0.85rem;
 }
 
+.text-\[0\.87rem\]{
+  font-size: 0.87rem;
+}
+
 .text-\[0\.8rem\]{
   font-size: 0.8rem;
 }
 
 .text-\[0\.9rem\]{
   font-size: 0.9rem;
-}
-
-.text-\[1\.15rem\]{
-  font-size: 1.15rem;
 }
 
 .text-\[1\.4rem\]{
@@ -975,18 +967,6 @@ h1,
 .text-lg{
   font-size: 1.125rem;
   line-height: 1.75rem;
-}
-
-.text-\[1rem\]{
-  font-size: 1rem;
-}
-
-.text-\[0\.92rem\]{
-  font-size: 0.92rem;
-}
-
-.text-\[0\.87rem\]{
-  font-size: 0.87rem;
 }
 
 .font-bold{
@@ -1018,10 +998,6 @@ h1,
 .text-white{
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
-.text-\[\]{
-  color: ;
 }
 
 .text-opacity-50{
@@ -1133,28 +1109,8 @@ h1,
     width: 8rem;
   }
 
-  .md\:w-4\/5{
-    width: 80%;
-  }
-
-  .md\:max-w-2xl{
-    max-width: 42rem;
-  }
-
   .md\:max-w-3xl{
     max-width: 48rem;
-  }
-
-  .md\:max-w-md{
-    max-width: 28rem;
-  }
-
-  .md\:max-w-lg{
-    max-width: 32rem;
-  }
-
-  .md\:max-w-prose{
-    max-width: 65ch;
   }
 
   .md\:max-w-xl{
@@ -1224,13 +1180,12 @@ h1,
     padding-bottom: 24rem;
   }
 
-  .md\:text-3xl{
-    font-size: 1.875rem;
-    line-height: 2.25rem;
-  }
-
   .md\:text-\[0\.9rem\]{
     font-size: 0.9rem;
+  }
+
+  .md\:text-\[1\.2rem\]{
+    font-size: 1.2rem;
   }
 
   .md\:text-\[1\.8rem\]{
@@ -1241,12 +1196,8 @@ h1,
     font-size: 1rem;
   }
 
-  .md\:text-\[1\.2rem\]{
-    font-size: 1.2rem;
-  }
-
-  .md\:text-\[2rem\]{
-    font-size: 2rem;
+  .md\:text-\[2\.5rem\]{
+    font-size: 2.5rem;
   }
 
   .md\:text-base{
@@ -1254,27 +1205,7 @@ h1,
     line-height: 1.5rem;
   }
 
-  .md\:text-\[2\.4rem\]{
-    font-size: 2.4rem;
-  }
-
-  .md\:text-\[2\.2rem\]{
-    font-size: 2.2rem;
-  }
-
-  .md\:text-\[2\.5rem\]{
-    font-size: 2.5rem;
-  }
-
-  .md\:text-\[1\.1rem\]{
-    font-size: 1.1rem;
-  }
-
   .md\:text-white\/80{
     color: rgb(255 255 255 / 0.8);
-  }
-
-  .md\:text-\[\]{
-    color: ;
   }
 }
