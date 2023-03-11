@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: 
-- Live Site URL: 
+- Solution URL: [https://www.frontendmentor.io/solutions/responsive-landing-page-using-grid-and-flexbox-AJHb7NxAIz](https://www.frontendmentor.io/solutions/responsive-landing-page-using-grid-and-flexbox-AJHb7NxAIz)
+- Live Site URL: [https://mbalinoftw.github.io/fylo-dark-theme-landing-page/](https://mbalinoftw.github.io/fylo-dark-theme-landing-page/)
 
 ## My process
 
