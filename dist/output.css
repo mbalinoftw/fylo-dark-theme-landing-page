@@ -675,6 +675,10 @@ h1,
   max-width: 1280px;
 }
 
+.max-w-lg{
+  max-width: 32rem;
+}
+
 .flex-1{
   flex: 1 1 0%;
 }
@@ -973,6 +977,18 @@ h1,
   line-height: 1.75rem;
 }
 
+.text-\[1rem\]{
+  font-size: 1rem;
+}
+
+.text-\[0\.92rem\]{
+  font-size: 0.92rem;
+}
+
+.text-\[0\.87rem\]{
+  font-size: 0.87rem;
+}
+
 .font-bold{
   font-weight: 700;
 }
@@ -1002,6 +1018,10 @@ h1,
 .text-white{
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.text-\[\]{
+  color: ;
 }
 
 .text-opacity-50{
@@ -1064,32 +1084,12 @@ h1,
 }
 
 @media (min-width: 768px){
-  .md\:left-1{
-    left: 0.25rem;
-  }
-
-  .md\:top-1{
-    top: 0.25rem;
-  }
-
-  .md\:top-2{
-    top: 0.5rem;
-  }
-
-  .md\:left-2{
-    left: 0.5rem;
-  }
-
-  .md\:-top-2{
-    top: -0.5rem;
-  }
-
   .md\:-left-2{
     left: -0.5rem;
   }
 
-  .md\:-z-10{
-    z-index: -10;
+  .md\:top-2{
+    top: 0.5rem;
   }
 
   .md\:col-span-2{
@@ -1117,10 +1117,6 @@ h1,
     height: 0px;
   }
 
-  .md\:h-8{
-    height: 2rem;
-  }
-
   .md\:h-10{
     height: 2.5rem;
   }
@@ -1141,10 +1137,6 @@ h1,
     width: 80%;
   }
 
-  .md\:w-8{
-    width: 2rem;
-  }
-
   .md\:max-w-2xl{
     max-width: 42rem;
   }
@@ -1155,6 +1147,18 @@ h1,
 
   .md\:max-w-md{
     max-width: 28rem;
+  }
+
+  .md\:max-w-lg{
+    max-width: 32rem;
+  }
+
+  .md\:max-w-prose{
+    max-width: 65ch;
+  }
+
+  .md\:max-w-xl{
+    max-width: 36rem;
   }
 
   .md\:grid-cols-2{
@@ -1179,6 +1183,10 @@ h1,
 
   .md\:items-center{
     align-items: center;
+  }
+
+  .md\:justify-center{
+    justify-content: center;
   }
 
   .md\:gap-6{
@@ -1229,7 +1237,44 @@ h1,
     font-size: 1.8rem;
   }
 
+  .md\:text-\[1rem\]{
+    font-size: 1rem;
+  }
+
+  .md\:text-\[1\.2rem\]{
+    font-size: 1.2rem;
+  }
+
+  .md\:text-\[2rem\]{
+    font-size: 2rem;
+  }
+
+  .md\:text-base{
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+
+  .md\:text-\[2\.4rem\]{
+    font-size: 2.4rem;
+  }
+
+  .md\:text-\[2\.2rem\]{
+    font-size: 2.2rem;
+  }
+
+  .md\:text-\[2\.5rem\]{
+    font-size: 2.5rem;
+  }
+
+  .md\:text-\[1\.1rem\]{
+    font-size: 1.1rem;
+  }
+
   .md\:text-white\/80{
     color: rgb(255 255 255 / 0.8);
+  }
+
+  .md\:text-\[\]{
+    color: ;
   }
 }
